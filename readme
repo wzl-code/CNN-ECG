@@ -1,1 +1,5 @@
 基于深度学习的心电异常检测
+make_own_data：将数据转化为tfrecord格式存储，产生.tfrecords文件
+ReadMyOwnData：读取tfrecords格式的数据
+N_and_R_train：搭建CNN网络，读取数据进行训练,得到训练.pd模型
+test:利用训练好的.pd模型进行测试
